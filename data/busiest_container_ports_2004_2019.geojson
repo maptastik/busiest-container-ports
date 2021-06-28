@@ -1,0 +1,1763 @@
+{
+  "type" : "FeatureCollection", 
+  "crs" : 
+  {
+    "type" : "name", 
+    "properties" : 
+    {
+      "name" : "EPSG:4326"
+    }
+  }, 
+  "features" : [
+    {
+      "type" : "Feature", 
+      "id" : 1, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          121.45806, 31.22222
+        ]
+      }, 
+      "properties" : {
+        "PORT" : "Shanghai", 
+        "COUNTRY" : "China", 
+        "REGION" : "East Asia", 
+        "LOCATION" : "Yangtze Delta", 
+        "RANK_2019" : 1, 
+        "TEU_K_2019" : 43303, 
+        "TEU_K_2018" : 42010, 
+        "TEU_K_2017" : 40233, 
+        "TEU_K_2016" : 37133, 
+        "TEU_K_2015" : 36537, 
+        "TEU_K_2014" : 35268, 
+        "TEU_K_2013" : 33617, 
+        "TEU_K_2012" : 32529, 
+        "TEU_K_2011" : 31700, 
+        "TEU_K_2010" : 29069, 
+        "TEU_K_2009" : 25002, 
+        "TEU_K_2008" : 27980, 
+        "TEU_K_2007" : 26150, 
+        "TEU_K_2006" : 21710, 
+        "TEU_K_2005" : 18084, 
+        "TEU_K_2004" : 14557, 
+        "ObjectId" : 1
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 2, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          103.85211, 1.29041
+        ]
+      }, 
+      "properties" : {
+        "PORT" : "Singapore", 
+        "COUNTRY" : "Singapore", 
+        "REGION" : "Southeast Asia", 
+        "LOCATION" : "Singapore Strait", 
+        "RANK_2019" : 2, 
+        "TEU_K_2019" : 37195, 
+        "TEU_K_2018" : 36599, 
+        "TEU_K_2017" : 33666, 
+        "TEU_K_2016" : 30904, 
+        "TEU_K_2015" : 30922, 
+        "TEU_K_2014" : 33869, 
+        "TEU_K_2013" : 32240, 
+        "TEU_K_2012" : 31649, 
+        "TEU_K_2011" : 29937, 
+        "TEU_K_2010" : 28431, 
+        "TEU_K_2009" : 25866, 
+        "TEU_K_2008" : 29918, 
+        "TEU_K_2007" : 27932, 
+        "TEU_K_2006" : 24792, 
+        "TEU_K_2005" : 23192, 
+        "TEU_K_2004" : 21329, 
+        "ObjectId" : 2
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 3, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          119.62248, 33.2345
+        ]
+      }, 
+      "properties" : {
+        "PORT" : "Ningbo-Zhoushan", 
+        "COUNTRY" : "China", 
+        "REGION" : "East Asia", 
+        "LOCATION" : "Yangtze Delta", 
+        "RANK_2019" : 3, 
+        "TEU_K_2019" : 27530, 
+        "TEU_K_2018" : 26351, 
+        "TEU_K_2017" : 24607, 
+        "TEU_K_2016" : 21560, 
+        "TEU_K_2015" : 20620, 
+        "TEU_K_2014" : 19450, 
+        "TEU_K_2013" : 17351, 
+        "TEU_K_2012" : 16670, 
+        "TEU_K_2011" : 14686, 
+        "TEU_K_2010" : 13144, 
+        "TEU_K_2009" : 10502, 
+        "TEU_K_2008" : 11226, 
+        "TEU_K_2007" : 9349, 
+        "TEU_K_2006" : 7068, 
+        "TEU_K_2005" : 5208, 
+        "TEU_K_2004" : 4006, 
+        "ObjectId" : 3
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 4, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          114.0683, 22.54554
+        ]
+      }, 
+      "properties" : {
+        "PORT" : "Shenzhen", 
+        "COUNTRY" : "China", 
+        "REGION" : "East Asia", 
+        "LOCATION" : "Pearl River Delta", 
+        "RANK_2019" : 4, 
+        "TEU_K_2019" : 25770, 
+        "TEU_K_2018" : 25740, 
+        "TEU_K_2017" : 25208, 
+        "TEU_K_2016" : 23979, 
+        "TEU_K_2015" : 24204, 
+        "TEU_K_2014" : 23798, 
+        "TEU_K_2013" : 23280, 
+        "TEU_K_2012" : 22940, 
+        "TEU_K_2011" : 22570, 
+        "TEU_K_2010" : 22510, 
+        "TEU_K_2009" : 18250, 
+        "TEU_K_2008" : 21414, 
+        "TEU_K_2007" : 21099, 
+        "TEU_K_2006" : 18469, 
+        "TEU_K_2005" : 16197, 
+        "TEU_K_2004" : 13615, 
+        "ObjectId" : 4
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 5, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          113.25, 23.11667
+        ]
+      }, 
+      "properties" : {
+        "PORT" : "Guangzhou", 
+        "COUNTRY" : "China", 
+        "REGION" : "East Asia", 
+        "LOCATION" : "Pearl River Delta", 
+        "RANK_2019" : 5, 
+        "TEU_K_2019" : 23236, 
+        "TEU_K_2018" : 21992, 
+        "TEU_K_2017" : 20370, 
+        "TEU_K_2016" : 18858, 
+        "TEU_K_2015" : 17625, 
+        "TEU_K_2014" : 16160, 
+        "TEU_K_2013" : 15309, 
+        "TEU_K_2012" : 14744, 
+        "TEU_K_2011" : 14400, 
+        "TEU_K_2010" : 12550, 
+        "TEU_K_2009" : 11190, 
+        "TEU_K_2008" : 11001, 
+        "TEU_K_2007" : 9200, 
+        "TEU_K_2006" : 6600, 
+        "TEU_K_2005" : 4685, 
+        "TEU_K_2004" : 3308, 
+        "ObjectId" : 5
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 6, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          129.04028, 35.10278
+        ]
+      }, 
+      "properties" : {
+        "PORT" : "Busan", 
+        "COUNTRY" : "South Korea", 
+        "REGION" : "East Asia", 
+        "LOCATION" : "Korean Strait", 
+        "RANK_2019" : 6, 
+        "TEU_K_2019" : 21992, 
+        "TEU_K_2018" : 21662, 
+        "TEU_K_2017" : 20493, 
+        "TEU_K_2016" : 19850, 
+        "TEU_K_2015" : 19469, 
+        "TEU_K_2014" : 18423, 
+        "TEU_K_2013" : 17690, 
+        "TEU_K_2012" : 17046, 
+        "TEU_K_2011" : 16185, 
+        "TEU_K_2010" : 14157, 
+        "TEU_K_2009" : 11954, 
+        "TEU_K_2008" : 13425, 
+        "TEU_K_2007" : 13270, 
+        "TEU_K_2006" : 12039, 
+        "TEU_K_2005" : 11843, 
+        "TEU_K_2004" : 11430, 
+        "ObjectId" : 6
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 7, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          120.37194, 36.09861
+        ]
+      }, 
+      "properties" : {
+        "PORT" : "Qingdao", 
+        "COUNTRY" : "China", 
+        "REGION" : "East Asia", 
+        "LOCATION" : "Yellow Sea", 
+        "RANK_2019" : 7, 
+        "TEU_K_2019" : 21010, 
+        "TEU_K_2018" : 19315, 
+        "TEU_K_2017" : 18262, 
+        "TEU_K_2016" : 18010, 
+        "TEU_K_2015" : 17510, 
+        "TEU_K_2014" : 16624, 
+        "TEU_K_2013" : 15520, 
+        "TEU_K_2012" : 14503, 
+        "TEU_K_2011" : 13020, 
+        "TEU_K_2010" : 12012, 
+        "TEU_K_2009" : 10260, 
+        "TEU_K_2008" : 10320, 
+        "TEU_K_2007" : 9462, 
+        "TEU_K_2006" : 7702, 
+        "TEU_K_2005" : 6307, 
+        "TEU_K_2004" : 5140, 
+        "ObjectId" : 7
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 8, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          114.16039, 22.2783
+        ]
+      }, 
+      "properties" : {
+        "PORT" : "Hong Kong", 
+        "COUNTRY" : "Hong Kong", 
+        "REGION" : "East Asia", 
+        "LOCATION" : "Pearl River Delta", 
+        "RANK_2019" : 8, 
+        "TEU_K_2019" : 18361, 
+        "TEU_K_2018" : 19596, 
+        "TEU_K_2017" : 20770, 
+        "TEU_K_2016" : 19813, 
+        "TEU_K_2015" : 20073, 
+        "TEU_K_2014" : 22374, 
+        "TEU_K_2013" : 22352, 
+        "TEU_K_2012" : 23117, 
+        "TEU_K_2011" : 24384, 
+        "TEU_K_2010" : 23532, 
+        "TEU_K_2009" : 20983, 
+        "TEU_K_2008" : 24248, 
+        "TEU_K_2007" : 23881, 
+        "TEU_K_2006" : 23539, 
+        "TEU_K_2005" : 22427, 
+        "TEU_K_2004" : 21984, 
+        "ObjectId" : 8
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 9, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          117.17667, 39.14222
+        ]
+      }, 
+      "properties" : {
+        "PORT" : "Tianjin", 
+        "COUNTRY" : "China", 
+        "REGION" : "East Asia", 
+        "LOCATION" : "Yellow Sea", 
+        "RANK_2019" : 9, 
+        "TEU_K_2019" : 17264, 
+        "TEU_K_2018" : 15972, 
+        "TEU_K_2017" : 15040, 
+        "TEU_K_2016" : 14490, 
+        "TEU_K_2015" : 14090, 
+        "TEU_K_2014" : 14050, 
+        "TEU_K_2013" : 13010, 
+        "TEU_K_2012" : 12300, 
+        "TEU_K_2011" : 11500, 
+        "TEU_K_2010" : 10080, 
+        "TEU_K_2009" : 8700, 
+        "TEU_K_2008" : 8500, 
+        "TEU_K_2007" : 7103, 
+        "TEU_K_2006" : 5950, 
+        "TEU_K_2005" : 4801, 
+        "TEU_K_2004" : 3814, 
+        "ObjectId" : 9
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 10, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          4.48716, 51.91438
+        ]
+      }, 
+      "properties" : {
+        "PORT" : "Rotterdam", 
+        "COUNTRY" : "Netherlands", 
+        "REGION" : "Europe", 
+        "LOCATION" : "Rhine delta", 
+        "RANK_2019" : 10, 
+        "TEU_K_2019" : 14810, 
+        "TEU_K_2018" : 14512, 
+        "TEU_K_2017" : 13734, 
+        "TEU_K_2016" : 12385, 
+        "TEU_K_2015" : 12235, 
+        "TEU_K_2014" : 12453, 
+        "TEU_K_2013" : 11621, 
+        "TEU_K_2012" : 11866, 
+        "TEU_K_2011" : 11877, 
+        "TEU_K_2010" : 11146, 
+        "TEU_K_2009" : 9743, 
+        "TEU_K_2008" : 10784, 
+        "TEU_K_2007" : 10791, 
+        "TEU_K_2006" : 9655, 
+        "TEU_K_2005" : 9287, 
+        "TEU_K_2004" : 8281, 
+        "ObjectId" : 10
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 11, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          55.30884, 25.26951
+        ]
+      }, 
+      "properties" : {
+        "PORT" : "Dubai", 
+        "COUNTRY" : "United Arab Emirates", 
+        "REGION" : "West Asia", 
+        "LOCATION" : "Persian Gulf", 
+        "RANK_2019" : 11, 
+        "TEU_K_2019" : 14111, 
+        "TEU_K_2018" : 14954, 
+        "TEU_K_2017" : 15368, 
+        "TEU_K_2016" : 14772, 
+        "TEU_K_2015" : 15592, 
+        "TEU_K_2014" : 14750, 
+        "TEU_K_2013" : 13641, 
+        "TEU_K_2012" : 13270, 
+        "TEU_K_2011" : 13000, 
+        "TEU_K_2010" : 11600, 
+        "TEU_K_2009" : 11124, 
+        "TEU_K_2008" : 11827, 
+        "TEU_K_2007" : 10653, 
+        "TEU_K_2006" : 8923, 
+        "TEU_K_2005" : 7619, 
+        "TEU_K_2004" : 6429, 
+        "ObjectId" : 11
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 12, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          101.40834, 2.97842
+        ]
+      }, 
+      "properties" : {
+        "PORT" : "Port Klang", 
+        "COUNTRY" : "Malaysia", 
+        "REGION" : "Southeast Asia", 
+        "LOCATION" : "Malacca Strait", 
+        "RANK_2019" : 12, 
+        "TEU_K_2019" : 13580, 
+        "TEU_K_2018" : 12316, 
+        "TEU_K_2017" : 11978, 
+        "TEU_K_2016" : 13170, 
+        "TEU_K_2015" : 11887, 
+        "TEU_K_2014" : 10736, 
+        "TEU_K_2013" : 10350, 
+        "TEU_K_2012" : 10000, 
+        "TEU_K_2011" : 9604, 
+        "TEU_K_2010" : 8870, 
+        "TEU_K_2009" : 7309, 
+        "TEU_K_2008" : 7970, 
+        "TEU_K_2007" : 7120, 
+        "TEU_K_2006" : 6326, 
+        "TEU_K_2005" : 5544, 
+        "TEU_K_2004" : 5244, 
+        "ObjectId" : 12
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 13, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          4.39769, 51.22212
+        ]
+      }, 
+      "properties" : {
+        "PORT" : "Antwerp", 
+        "COUNTRY" : "Belgium", 
+        "REGION" : "Europe", 
+        "LOCATION" : "Scheldt delta", 
+        "RANK_2019" : 13, 
+        "TEU_K_2019" : 11860, 
+        "TEU_K_2018" : 11100, 
+        "TEU_K_2017" : 10451, 
+        "TEU_K_2016" : 10037, 
+        "TEU_K_2015" : 9654, 
+        "TEU_K_2014" : 9136, 
+        "TEU_K_2013" : 8578, 
+        "TEU_K_2012" : 8635, 
+        "TEU_K_2011" : 8664, 
+        "TEU_K_2010" : 8468, 
+        "TEU_K_2009" : 7309, 
+        "TEU_K_2008" : 8663, 
+        "TEU_K_2007" : 8176, 
+        "TEU_K_2006" : 7019, 
+        "TEU_K_2005" : 6482, 
+        "TEU_K_2004" : 6064, 
+        "ObjectId" : 13
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 14, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          118.08187, 24.47979
+        ]
+      }, 
+      "properties" : {
+        "PORT" : "Xiamen", 
+        "COUNTRY" : "China", 
+        "REGION" : "East Asia", 
+        "LOCATION" : "Taiwan Strait", 
+        "RANK_2019" : 14, 
+        "TEU_K_2019" : 11122, 
+        "TEU_K_2018" : 10702, 
+        "TEU_K_2017" : 10380, 
+        "TEU_K_2016" : 9614, 
+        "TEU_K_2015" : 9183, 
+        "TEU_K_2014" : 8572, 
+        "TEU_K_2013" : 8010, 
+        "TEU_K_2012" : 7202, 
+        "TEU_K_2011" : 6461, 
+        "TEU_K_2010" : 5820, 
+        "TEU_K_2009" : 4680, 
+        "TEU_K_2008" : 5035, 
+        "TEU_K_2007" : 4627, 
+        "TEU_K_2006" : 4019, 
+        "TEU_K_2005" : 3342, 
+        "TEU_K_2004" : 2872, 
+        "ObjectId" : 14
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 15, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          120.31226, 22.62014
+        ]
+      }, 
+      "properties" : {
+        "PORT" : "Kaohsiung", 
+        "COUNTRY" : "Taiwan", 
+        "REGION" : "East Asia", 
+        "LOCATION" : "Taiwan Strait", 
+        "RANK_2019" : 15, 
+        "TEU_K_2019" : 10428, 
+        "TEU_K_2018" : 10445, 
+        "TEU_K_2017" : 10271, 
+        "TEU_K_2016" : 10465, 
+        "TEU_K_2015" : 10264, 
+        "TEU_K_2014" : 10593, 
+        "TEU_K_2013" : 9938, 
+        "TEU_K_2012" : 9781, 
+        "TEU_K_2011" : 9636, 
+        "TEU_K_2010" : 8872, 
+        "TEU_K_2009" : 8581, 
+        "TEU_K_2008" : 9677, 
+        "TEU_K_2007" : 10257, 
+        "TEU_K_2006" : 9775, 
+        "TEU_K_2005" : 9471, 
+        "TEU_K_2004" : 9714, 
+        "ObjectId" : 15
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 16, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -118.24545, 34.05357
+        ]
+      }, 
+      "properties" : {
+        "PORT" : "Los Angeles", 
+        "COUNTRY" : "United States", 
+        "REGION" : "North America", 
+        "LOCATION" : "West Coast", 
+        "RANK_2019" : 16, 
+        "TEU_K_2019" : 9337, 
+        "TEU_K_2018" : 9458, 
+        "TEU_K_2017" : 9343, 
+        "TEU_K_2016" : 8857, 
+        "TEU_K_2015" : 8160, 
+        "TEU_K_2014" : 8340, 
+        "TEU_K_2013" : 7869, 
+        "TEU_K_2012" : 8078, 
+        "TEU_K_2011" : 7941, 
+        "TEU_K_2010" : 7832, 
+        "TEU_K_2009" : 6748, 
+        "TEU_K_2008" : 7850, 
+        "TEU_K_2007" : 8355, 
+        "TEU_K_2006" : 8470, 
+        "TEU_K_2005" : 7485, 
+        "TEU_K_2004" : 7321, 
+        "ObjectId" : 16
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 17, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          9.98745, 53.55562
+        ]
+      }, 
+      "properties" : {
+        "PORT" : "Hamburg", 
+        "COUNTRY" : "Germany", 
+        "REGION" : "Europe", 
+        "LOCATION" : "Elbe River", 
+        "RANK_2019" : 17, 
+        "TEU_K_2019" : 9274, 
+        "TEU_K_2018" : 8730, 
+        "TEU_K_2017" : 8860, 
+        "TEU_K_2016" : 8910, 
+        "TEU_K_2015" : 8821, 
+        "TEU_K_2014" : 9729, 
+        "TEU_K_2013" : 9302, 
+        "TEU_K_2012" : 8864, 
+        "TEU_K_2011" : 9022, 
+        "TEU_K_2010" : 7900, 
+        "TEU_K_2009" : 7007, 
+        "TEU_K_2008" : 9737, 
+        "TEU_K_2007" : 9890, 
+        "TEU_K_2006" : 8862, 
+        "TEU_K_2005" : 8088, 
+        "TEU_K_2004" : 7003, 
+        "ObjectId" : 17
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 18, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          103.55, 1.35
+        ]
+      }, 
+      "properties" : {
+        "PORT" : "Tanjung Pelepas", 
+        "COUNTRY" : "Malaysia", 
+        "REGION" : "Southeast Asia", 
+        "LOCATION" : "Malacca Strait", 
+        "RANK_2019" : 18, 
+        "TEU_K_2019" : 9100, 
+        "TEU_K_2018" : 8960, 
+        "TEU_K_2017" : 8261, 
+        "TEU_K_2016" : 8281, 
+        "TEU_K_2015" : 9120, 
+        "TEU_K_2014" : 8500, 
+        "TEU_K_2013" : 7628, 
+        "TEU_K_2012" : 7700, 
+        "TEU_K_2011" : 7500, 
+        "TEU_K_2010" : 6530, 
+        "TEU_K_2009" : 6000, 
+        "TEU_K_2008" : 5600, 
+        "TEU_K_2007" : 5500, 
+        "TEU_K_2006" : 4770, 
+        "TEU_K_2005" : 4177, 
+        "TEU_K_2004" : 4020, 
+        "ObjectId" : 18
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 19, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          121.60222, 38.91222
+        ]
+      }, 
+      "properties" : {
+        "PORT" : "Dalian", 
+        "COUNTRY" : "China", 
+        "REGION" : "East Asia", 
+        "LOCATION" : "Yellow Sea", 
+        "RANK_2019" : 19, 
+        "TEU_K_2019" : 8760, 
+        "TEU_K_2018" : 9770, 
+        "TEU_K_2017" : 9707, 
+        "TEU_K_2016" : 9614, 
+        "TEU_K_2015" : 9450, 
+        "TEU_K_2014" : 10128, 
+        "TEU_K_2013" : 10860, 
+        "TEU_K_2012" : 8060, 
+        "TEU_K_2011" : 6400, 
+        "TEU_K_2010" : 5242, 
+        "TEU_K_2009" : 4552, 
+        "TEU_K_2008" : 4503, 
+        "TEU_K_2007" : 4574, 
+        "TEU_K_2006" : 3212, 
+        "TEU_K_2005" : 2665, 
+        "TEU_K_2004" : 2211, 
+        "ObjectId" : 19
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 20, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          100.9159, 13.10215
+        ]
+      }, 
+      "properties" : {
+        "PORT" : "Laem Chabang", 
+        "COUNTRY" : "Thailand", 
+        "REGION" : "Southeast Asia", 
+        "LOCATION" : "Gulf of Thailand", 
+        "RANK_2019" : 20, 
+        "TEU_K_2019" : 8106, 
+        "TEU_K_2018" : 8070, 
+        "TEU_K_2017" : 7670, 
+        "TEU_K_2016" : 7227, 
+        "TEU_K_2015" : 6780, 
+        "TEU_K_2014" : 6518, 
+        "TEU_K_2013" : 6032, 
+        "TEU_K_2012" : 5830, 
+        "TEU_K_2011" : 5731, 
+        "TEU_K_2010" : 5068, 
+        "TEU_K_2009" : 4538, 
+        "TEU_K_2008" : 5134, 
+        "TEU_K_2007" : 4642, 
+        "TEU_K_2006" : 4123, 
+        "TEU_K_2005" : 3834, 
+        "TEU_K_2004" : 3529, 
+        "ObjectId" : 20
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 21, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -118.1924, 33.76672
+        ]
+      }, 
+      "properties" : {
+        "PORT" : "Long Beach", 
+        "COUNTRY" : "United States", 
+        "REGION" : "North America", 
+        "LOCATION" : "West Coast", 
+        "RANK_2019" : 21, 
+        "TEU_K_2019" : 7632, 
+        "TEU_K_2018" : 8091, 
+        "TEU_K_2017" : 7670, 
+        "TEU_K_2016" : 6775, 
+        "TEU_K_2015" : 7192, 
+        "TEU_K_2014" : 6821, 
+        "TEU_K_2013" : 6731, 
+        "TEU_K_2012" : 6046, 
+        "TEU_K_2011" : 6061, 
+        "TEU_K_2010" : 6263, 
+        "TEU_K_2009" : 5067, 
+        "TEU_K_2008" : 6350, 
+        "TEU_K_2007" : 7316, 
+        "TEU_K_2006" : 7289, 
+        "TEU_K_2005" : 6710, 
+        "TEU_K_2004" : 5780, 
+        "ObjectId" : 21
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 22, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          98.024, 4.1439
+        ]
+      }, 
+      "properties" : {
+        "PORT" : "Tanjung Priok", 
+        "COUNTRY" : "Indonesia", 
+        "REGION" : "Southeast Asia", 
+        "LOCATION" : "Java Sea", 
+        "RANK_2019" : 22, 
+        "TEU_K_2019" : 7600, 
+        "TEU_K_2018" : 7640, 
+        "TEU_K_2017" : 6090, 
+        "TEU_K_2016" : 5515, 
+        "TEU_K_2015" : 5201, 
+        "TEU_K_2014" : 5034, 
+        "TEU_K_2013" : 6590, 
+        "TEU_K_2012" : 6200, 
+        "TEU_K_2011" : 5618, 
+        "TEU_K_2010" : 4715, 
+        "TEU_K_2009" : 3800, 
+        "TEU_K_2008" : 3984, 
+        "TEU_K_2007" : 3900, 
+        "TEU_K_2006" : 3280, 
+        "TEU_K_2005" : 3282, 
+        "TEU_K_2004" : 3170, 
+        "ObjectId" : 22
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 23, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -74.00714, 40.71455
+        ]
+      }, 
+      "properties" : {
+        "PORT" : "New York", 
+        "COUNTRY" : "United States", 
+        "REGION" : "North America", 
+        "LOCATION" : "East Coast", 
+        "RANK_2019" : 23, 
+        "TEU_K_2019" : 7471, 
+        "TEU_K_2018" : 7179, 
+        "TEU_K_2017" : 6711, 
+        "TEU_K_2016" : 6252, 
+        "TEU_K_2015" : 6372, 
+        "TEU_K_2014" : 5772, 
+        "TEU_K_2013" : 5467, 
+        "TEU_K_2012" : 5530, 
+        "TEU_K_2011" : 5503, 
+        "TEU_K_2010" : 5292, 
+        "TEU_K_2009" : 4561, 
+        "TEU_K_2008" : 5265, 
+        "TEU_K_2007" : 5299, 
+        "TEU_K_2006" : 5093, 
+        "TEU_K_2005" : 4785, 
+        "TEU_K_2004" : 4478, 
+        "ObjectId" : 23
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 24, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          79.84588, 6.93243
+        ]
+      }, 
+      "properties" : {
+        "PORT" : "Colombo", 
+        "COUNTRY" : "Sri Lanka", 
+        "REGION" : "South Asia", 
+        "LOCATION" : "Sri Lanka", 
+        "RANK_2019" : 24, 
+        "TEU_K_2019" : 7228, 
+        "TEU_K_2018" : 7047, 
+        "TEU_K_2017" : 6209, 
+        "TEU_K_2016" : 5735, 
+        "TEU_K_2015" : 5185, 
+        "TEU_K_2014" : 4910, 
+        "TEU_K_2013" : null, 
+        "TEU_K_2012" : null, 
+        "TEU_K_2011" : null, 
+        "TEU_K_2010" : null, 
+        "TEU_K_2009" : null, 
+        "TEU_K_2008" : null, 
+        "TEU_K_2007" : null, 
+        "TEU_K_2006" : null, 
+        "TEU_K_2005" : null, 
+        "TEU_K_2004" : 2221, 
+        "ObjectId" : 24
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 25, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          106.70111, 10.77641
+        ]
+      }, 
+      "properties" : {
+        "PORT" : "Saigon", 
+        "COUNTRY" : "Vietnam", 
+        "REGION" : "Southeast Asia", 
+        "LOCATION" : "East Vietnam Sea", 
+        "RANK_2019" : 25, 
+        "TEU_K_2019" : 7220, 
+        "TEU_K_2018" : 6586, 
+        "TEU_K_2017" : 6156, 
+        "TEU_K_2016" : 5987, 
+        "TEU_K_2015" : 5788, 
+        "TEU_K_2014" : 6334, 
+        "TEU_K_2013" : 5542, 
+        "TEU_K_2012" : 5060, 
+        "TEU_K_2011" : 4674, 
+        "TEU_K_2010" : 4100, 
+        "TEU_K_2009" : 3563, 
+        "TEU_K_2008" : 3100, 
+        "TEU_K_2007" : 2532, 
+        "TEU_K_2006" : 2532, 
+        "TEU_K_2005" : 2122, 
+        "TEU_K_2004" : 1868, 
+        "ObjectId" : 25
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 26, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          23.63708, 37.94745
+        ]
+      }, 
+      "properties" : {
+        "PORT" : "Piraeus", 
+        "COUNTRY" : "Greece", 
+        "REGION" : "Europe", 
+        "LOCATION" : "Eastern Mediterranean", 
+        "RANK_2019" : 26, 
+        "TEU_K_2019" : 5648, 
+        "TEU_K_2018" : 4907, 
+        "TEU_K_2017" : 4145, 
+        "TEU_K_2016" : 3737, 
+        "TEU_K_2015" : 3330, 
+        "TEU_K_2014" : 3164, 
+        "TEU_K_2013" : 2745, 
+        "TEU_K_2012" : 1680, 
+        "TEU_K_2011" : 1198, 
+        "TEU_K_2010" : 665, 
+        "TEU_K_2009" : 434, 
+        "TEU_K_2008" : 1373, 
+        "TEU_K_2007" : null, 
+        "TEU_K_2006" : null, 
+        "TEU_K_2005" : null, 
+        "TEU_K_2004" : null, 
+        "ObjectId" : 26
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 27, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          122.25919, 40.675
+        ]
+      }, 
+      "properties" : {
+        "PORT" : "Yingkou", 
+        "COUNTRY" : "China", 
+        "REGION" : "East Asia", 
+        "LOCATION" : "Liaodong Bay", 
+        "RANK_2019" : 27, 
+        "TEU_K_2019" : 5480, 
+        "TEU_K_2018" : 6487, 
+        "TEU_K_2017" : 6278, 
+        "TEU_K_2016" : 6086, 
+        "TEU_K_2015" : 5922, 
+        "TEU_K_2014" : 5770, 
+        "TEU_K_2013" : null, 
+        "TEU_K_2012" : null, 
+        "TEU_K_2011" : null, 
+        "TEU_K_2010" : null, 
+        "TEU_K_2009" : null, 
+        "TEU_K_2008" : null, 
+        "TEU_K_2007" : null, 
+        "TEU_K_2006" : null, 
+        "TEU_K_2005" : null, 
+        "TEU_K_2004" : null, 
+        "ObjectId" : 27
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 28, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -0.37686, 39.46894
+        ]
+      }, 
+      "properties" : {
+        "PORT" : "Valencia", 
+        "COUNTRY" : "Spain", 
+        "REGION" : "Europe", 
+        "LOCATION" : "Western Mediterranean", 
+        "RANK_2019" : 28, 
+        "TEU_K_2019" : 5439, 
+        "TEU_K_2018" : 5128, 
+        "TEU_K_2017" : 4832, 
+        "TEU_K_2016" : 4722, 
+        "TEU_K_2015" : 4616, 
+        "TEU_K_2014" : 4442, 
+        "TEU_K_2013" : 4328, 
+        "TEU_K_2012" : 4470, 
+        "TEU_K_2011" : 4327, 
+        "TEU_K_2010" : 4207, 
+        "TEU_K_2009" : 3653, 
+        "TEU_K_2008" : 3593, 
+        "TEU_K_2007" : 3043, 
+        "TEU_K_2006" : 2612, 
+        "TEU_K_2005" : 2410, 
+        "TEU_K_2004" : 2145, 
+        "ObjectId" : 28
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 29, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          120.98627, 14.60487
+        ]
+      }, 
+      "properties" : {
+        "PORT" : "Manila", 
+        "COUNTRY" : "Philippines", 
+        "REGION" : "Southeast Asia", 
+        "LOCATION" : "Manila Bay", 
+        "RANK_2019" : 29, 
+        "TEU_K_2019" : 5315, 
+        "TEU_K_2018" : 5085, 
+        "TEU_K_2017" : 4782, 
+        "TEU_K_2016" : 4523, 
+        "TEU_K_2015" : 3976, 
+        "TEU_K_2014" : 3673, 
+        "TEU_K_2013" : 3770, 
+        "TEU_K_2012" : 3705, 
+        "TEU_K_2011" : 3250, 
+        "TEU_K_2010" : 3257, 
+        "TEU_K_2009" : 2815, 
+        "TEU_K_2008" : 2977, 
+        "TEU_K_2007" : 2800, 
+        "TEU_K_2006" : 2638, 
+        "TEU_K_2005" : 2625, 
+        "TEU_K_2004" : 2698, 
+        "ObjectId" : 29
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 30, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          113.92028, 36.33333
+        ]
+      }, 
+      "properties" : {
+        "PORT" : "Taicang", 
+        "COUNTRY" : "China", 
+        "REGION" : "East Asia", 
+        "LOCATION" : "Yangtze Delta", 
+        "RANK_2019" : 30, 
+        "TEU_K_2019" : 5152, 
+        "TEU_K_2018" : 5071, 
+        "TEU_K_2017" : 4514, 
+        "TEU_K_2016" : 4081, 
+        "TEU_K_2015" : 3760, 
+        "TEU_K_2014" : null, 
+        "TEU_K_2013" : null, 
+        "TEU_K_2012" : null, 
+        "TEU_K_2011" : null, 
+        "TEU_K_2010" : null, 
+        "TEU_K_2009" : null, 
+        "TEU_K_2008" : null, 
+        "TEU_K_2007" : null, 
+        "TEU_K_2006" : null, 
+        "TEU_K_2005" : null, 
+        "TEU_K_2004" : null, 
+        "ObjectId" : 30
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 31, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          106.68697, 20.86648
+        ]
+      }, 
+      "properties" : {
+        "PORT" : "Hai Phong", 
+        "COUNTRY" : "Vietnam", 
+        "REGION" : "Southeast Asia", 
+        "LOCATION" : "Hong River Delta", 
+        "RANK_2019" : 31, 
+        "TEU_K_2019" : 5133, 
+        "TEU_K_2018" : 4954, 
+        "TEU_K_2017" : null, 
+        "TEU_K_2016" : null, 
+        "TEU_K_2015" : null, 
+        "TEU_K_2014" : null, 
+        "TEU_K_2013" : null, 
+        "TEU_K_2012" : null, 
+        "TEU_K_2011" : null, 
+        "TEU_K_2010" : null, 
+        "TEU_K_2009" : null, 
+        "TEU_K_2008" : null, 
+        "TEU_K_2007" : null, 
+        "TEU_K_2006" : null, 
+        "TEU_K_2005" : null, 
+        "TEU_K_2004" : null, 
+        "ObjectId" : 31
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 32, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -5.45286, 36.12757
+        ]
+      }, 
+      "properties" : {
+        "PORT" : "Algeciras", 
+        "COUNTRY" : "Spain", 
+        "REGION" : "Europe", 
+        "LOCATION" : "Western Mediterranean", 
+        "RANK_2019" : 32, 
+        "TEU_K_2019" : 5125, 
+        "TEU_K_2018" : 4773, 
+        "TEU_K_2017" : 4340, 
+        "TEU_K_2016" : 4761, 
+        "TEU_K_2015" : 4516, 
+        "TEU_K_2014" : 4457, 
+        "TEU_K_2013" : 4501, 
+        "TEU_K_2012" : 4114, 
+        "TEU_K_2011" : 3603, 
+        "TEU_K_2010" : 2810, 
+        "TEU_K_2009" : 3042, 
+        "TEU_K_2008" : 3324, 
+        "TEU_K_2007" : 3152, 
+        "TEU_K_2006" : 3257, 
+        "TEU_K_2005" : 3180, 
+        "TEU_K_2004" : 2937, 
+        "ObjectId" : 32
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 33, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          72.83483, 18.94017
+        ]
+      }, 
+      "properties" : {
+        "PORT" : "Mumbai", 
+        "COUNTRY" : "India", 
+        "REGION" : "South Asia", 
+        "LOCATION" : "Arabian Sea", 
+        "RANK_2019" : 33, 
+        "TEU_K_2019" : 5100, 
+        "TEU_K_2018" : 5051, 
+        "TEU_K_2017" : 4833, 
+        "TEU_K_2016" : 4432, 
+        "TEU_K_2015" : 4490, 
+        "TEU_K_2014" : 4450, 
+        "TEU_K_2013" : null, 
+        "TEU_K_2012" : null, 
+        "TEU_K_2011" : null, 
+        "TEU_K_2010" : null, 
+        "TEU_K_2009" : null, 
+        "TEU_K_2008" : null, 
+        "TEU_K_2007" : null, 
+        "TEU_K_2006" : null, 
+        "TEU_K_2005" : null, 
+        "TEU_K_2004" : null, 
+        "ObjectId" : 33
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 34, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          8.58194, 53.54433
+        ]
+      }, 
+      "properties" : {
+        "PORT" : "Bremerhaven", 
+        "COUNTRY" : "Germany", 
+        "REGION" : "Europe", 
+        "LOCATION" : "North Sea", 
+        "RANK_2019" : 34, 
+        "TEU_K_2019" : 4856, 
+        "TEU_K_2018" : 5450, 
+        "TEU_K_2017" : 5510, 
+        "TEU_K_2016" : 5535, 
+        "TEU_K_2015" : 5479, 
+        "TEU_K_2014" : 5796, 
+        "TEU_K_2013" : 5831, 
+        "TEU_K_2012" : 6115, 
+        "TEU_K_2011" : 5915, 
+        "TEU_K_2010" : 4871, 
+        "TEU_K_2009" : 4578, 
+        "TEU_K_2008" : 5529, 
+        "TEU_K_2007" : 4912, 
+        "TEU_K_2006" : 4450, 
+        "TEU_K_2005" : 3736, 
+        "TEU_K_2004" : 3469, 
+        "ObjectId" : 34
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 35, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -5.80347, 35.77979
+        ]
+      }, 
+      "properties" : {
+        "PORT" : "Tanger-Med", 
+        "COUNTRY" : "Morocco", 
+        "REGION" : "North Africa", 
+        "LOCATION" : "Western Mediterranean", 
+        "RANK_2019" : 35, 
+        "TEU_K_2019" : 4801, 
+        "TEU_K_2018" : 3472, 
+        "TEU_K_2017" : 3312, 
+        "TEU_K_2016" : 2960, 
+        "TEU_K_2015" : null, 
+        "TEU_K_2014" : null, 
+        "TEU_K_2013" : null, 
+        "TEU_K_2012" : null, 
+        "TEU_K_2011" : null, 
+        "TEU_K_2010" : null, 
+        "TEU_K_2009" : null, 
+        "TEU_K_2008" : null, 
+        "TEU_K_2007" : null, 
+        "TEU_K_2006" : null, 
+        "TEU_K_2005" : null, 
+        "TEU_K_2004" : null, 
+        "ObjectId" : 35
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 36, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          119.15944, 34.59972
+        ]
+      }, 
+      "properties" : {
+        "PORT" : "Lianyungang", 
+        "COUNTRY" : "China", 
+        "REGION" : "East Asia", 
+        "LOCATION" : "Yellow Sea", 
+        "RANK_2019" : 36, 
+        "TEU_K_2019" : 4780, 
+        "TEU_K_2018" : 4750, 
+        "TEU_K_2017" : 4711, 
+        "TEU_K_2016" : 4703, 
+        "TEU_K_2015" : 4703, 
+        "TEU_K_2014" : null, 
+        "TEU_K_2013" : null, 
+        "TEU_K_2012" : null, 
+        "TEU_K_2011" : null, 
+        "TEU_K_2010" : null, 
+        "TEU_K_2009" : null, 
+        "TEU_K_2008" : null, 
+        "TEU_K_2007" : null, 
+        "TEU_K_2006" : null, 
+        "TEU_K_2005" : null, 
+        "TEU_K_2004" : null, 
+        "ObjectId" : 36
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 37, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          69.72853, 22.83827
+        ]
+      }, 
+      "properties" : {
+        "PORT" : "Mundra", 
+        "COUNTRY" : "India", 
+        "REGION" : "South Asia", 
+        "LOCATION" : "Gulf of Kutch", 
+        "RANK_2019" : 37, 
+        "TEU_K_2019" : 4732, 
+        "TEU_K_2018" : 4449, 
+        "TEU_K_2017" : 4240, 
+        "TEU_K_2016" : 3320, 
+        "TEU_K_2015" : 2895, 
+        "TEU_K_2014" : null, 
+        "TEU_K_2013" : null, 
+        "TEU_K_2012" : null, 
+        "TEU_K_2011" : null, 
+        "TEU_K_2010" : null, 
+        "TEU_K_2009" : null, 
+        "TEU_K_2008" : null, 
+        "TEU_K_2007" : null, 
+        "TEU_K_2006" : null, 
+        "TEU_K_2005" : null, 
+        "TEU_K_2004" : null, 
+        "ObjectId" : 37
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 38, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -81.09119, 32.08091
+        ]
+      }, 
+      "properties" : {
+        "PORT" : "Savannah", 
+        "COUNTRY" : "United States", 
+        "REGION" : "North America", 
+        "LOCATION" : "East Coast", 
+        "RANK_2019" : 38, 
+        "TEU_K_2019" : 4599, 
+        "TEU_K_2018" : 4350, 
+        "TEU_K_2017" : 4046, 
+        "TEU_K_2016" : 3645, 
+        "TEU_K_2015" : 3737, 
+        "TEU_K_2014" : 3346, 
+        "TEU_K_2013" : 3034, 
+        "TEU_K_2012" : 2966, 
+        "TEU_K_2011" : 2945, 
+        "TEU_K_2010" : 2825, 
+        "TEU_K_2009" : 2356, 
+        "TEU_K_2008" : 2616, 
+        "TEU_K_2007" : 2604, 
+        "TEU_K_2006" : 2160, 
+        "TEU_K_2005" : 1902, 
+        "TEU_K_2004" : 1662, 
+        "ObjectId" : 38
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 39, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          139.691716, 35.689456
+        ]
+      }, 
+      "properties" : {
+        "PORT" : "Tokyo", 
+        "COUNTRY" : "Japan", 
+        "REGION" : "East Asia", 
+        "LOCATION" : "Tokyo Bay", 
+        "RANK_2019" : 39, 
+        "TEU_K_2019" : 4510, 
+        "TEU_K_2018" : 4570, 
+        "TEU_K_2017" : 4500, 
+        "TEU_K_2016" : 4700, 
+        "TEU_K_2015" : 4629, 
+        "TEU_K_2014" : 4917, 
+        "TEU_K_2013" : 4861, 
+        "TEU_K_2012" : 4752, 
+        "TEU_K_2011" : 4640, 
+        "TEU_K_2010" : 4286, 
+        "TEU_K_2009" : 3810, 
+        "TEU_K_2008" : 4271, 
+        "TEU_K_2007" : 3818, 
+        "TEU_K_2006" : 3969, 
+        "TEU_K_2005" : 3593, 
+        "TEU_K_2004" : 3358, 
+        "ObjectId" : 39
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 40, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          119.44803, 35.42211
+        ]
+      }, 
+      "properties" : {
+        "PORT" : "Rizhao", 
+        "COUNTRY" : "China", 
+        "REGION" : "East Asia", 
+        "LOCATION" : "Yellow Sea", 
+        "RANK_2019" : 40, 
+        "TEU_K_2019" : 4500, 
+        "TEU_K_2018" : 4000, 
+        "TEU_K_2017" : 3240, 
+        "TEU_K_2016" : 3010, 
+        "TEU_K_2015" : 2810, 
+        "TEU_K_2014" : null, 
+        "TEU_K_2013" : null, 
+        "TEU_K_2012" : null, 
+        "TEU_K_2011" : null, 
+        "TEU_K_2010" : null, 
+        "TEU_K_2009" : null, 
+        "TEU_K_2008" : null, 
+        "TEU_K_2007" : null, 
+        "TEU_K_2006" : null, 
+        "TEU_K_2005" : null, 
+        "TEU_K_2004" : null, 
+        "ObjectId" : 40
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 41, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          39.1828, 21.4817
+        ]
+      }, 
+      "properties" : {
+        "PORT" : "Jeddah", 
+        "COUNTRY" : "Saudi Arabia", 
+        "REGION" : "West Asia", 
+        "LOCATION" : "Red Sea", 
+        "RANK_2019" : 41, 
+        "TEU_K_2019" : 4433, 
+        "TEU_K_2018" : 4120, 
+        "TEU_K_2017" : 4150, 
+        "TEU_K_2016" : 3957, 
+        "TEU_K_2015" : 4188, 
+        "TEU_K_2014" : 4200, 
+        "TEU_K_2013" : 4561, 
+        "TEU_K_2012" : 4738, 
+        "TEU_K_2011" : 4010, 
+        "TEU_K_2010" : 3830, 
+        "TEU_K_2009" : 3091, 
+        "TEU_K_2008" : 3326, 
+        "TEU_K_2007" : 3068, 
+        "TEU_K_2006" : 2964, 
+        "TEU_K_2005" : 2836, 
+        "TEU_K_2004" : 2426, 
+        "ObjectId" : 41
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 42, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -79.90139, 9.35917
+        ]
+      }, 
+      "properties" : {
+        "PORT" : "Colón", 
+        "COUNTRY" : "Panama", 
+        "REGION" : "Central America", 
+        "LOCATION" : "Caribbean coast", 
+        "RANK_2019" : 42, 
+        "TEU_K_2019" : 4379, 
+        "TEU_K_2018" : 3890, 
+        "TEU_K_2017" : 3891, 
+        "TEU_K_2016" : 3258, 
+        "TEU_K_2015" : 3577, 
+        "TEU_K_2014" : 3356, 
+        "TEU_K_2013" : 2060, 
+        "TEU_K_2012" : 1900, 
+        "TEU_K_2011" : 1600, 
+        "TEU_K_2010" : 2802, 
+        "TEU_K_2009" : 1856, 
+        "TEU_K_2008" : 2262, 
+        "TEU_K_2007" : null, 
+        "TEU_K_2006" : 1947, 
+        "TEU_K_2005" : 2150, 
+        "TEU_K_2004" : null, 
+        "ObjectId" : 42
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 43, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -46.32806, -23.96128
+        ]
+      }, 
+      "properties" : {
+        "PORT" : "Santos", 
+        "COUNTRY" : "Brazil", 
+        "REGION" : "South America", 
+        "LOCATION" : "South Atlantic Ocean", 
+        "RANK_2019" : 43, 
+        "TEU_K_2019" : 4165, 
+        "TEU_K_2018" : 4120, 
+        "TEU_K_2017" : 3854, 
+        "TEU_K_2016" : 3394, 
+        "TEU_K_2015" : 3645, 
+        "TEU_K_2014" : 3685, 
+        "TEU_K_2013" : 3446, 
+        "TEU_K_2012" : 3172, 
+        "TEU_K_2011" : 2985, 
+        "TEU_K_2010" : 2716, 
+        "TEU_K_2009" : 2252, 
+        "TEU_K_2008" : 2675, 
+        "TEU_K_2007" : 2533, 
+        "TEU_K_2006" : 2208, 
+        "TEU_K_2005" : 2240, 
+        "TEU_K_2004" : 1883, 
+        "ObjectId" : 43
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 44, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          54.09301, 17.01492
+        ]
+      }, 
+      "properties" : {
+        "PORT" : "Salalah", 
+        "COUNTRY" : "Oman", 
+        "REGION" : "West Asia", 
+        "LOCATION" : "Arabian Sea", 
+        "RANK_2019" : 44, 
+        "TEU_K_2019" : 4109, 
+        "TEU_K_2018" : 3390, 
+        "TEU_K_2017" : 3946, 
+        "TEU_K_2016" : 3325, 
+        "TEU_K_2015" : 2569, 
+        "TEU_K_2014" : null, 
+        "TEU_K_2013" : null, 
+        "TEU_K_2012" : null, 
+        "TEU_K_2011" : null, 
+        "TEU_K_2010" : null, 
+        "TEU_K_2009" : null, 
+        "TEU_K_2008" : null, 
+        "TEU_K_2007" : null, 
+        "TEU_K_2006" : null, 
+        "TEU_K_2005" : 2229, 
+        "TEU_K_2004" : null, 
+        "ObjectId" : 44
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 45, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          112.72528, -7.19861
+        ]
+      }, 
+      "properties" : {
+        "PORT" : "Tanjung Perak", 
+        "COUNTRY" : "Indonesia", 
+        "REGION" : "Southeast Asia", 
+        "LOCATION" : "Madura Strait", 
+        "RANK_2019" : 45, 
+        "TEU_K_2019" : 3900, 
+        "TEU_K_2018" : 3866, 
+        "TEU_K_2017" : 3553, 
+        "TEU_K_2016" : 3355, 
+        "TEU_K_2015" : 3154, 
+        "TEU_K_2014" : null, 
+        "TEU_K_2013" : null, 
+        "TEU_K_2012" : null, 
+        "TEU_K_2011" : null, 
+        "TEU_K_2010" : null, 
+        "TEU_K_2009" : null, 
+        "TEU_K_2008" : null, 
+        "TEU_K_2007" : null, 
+        "TEU_K_2006" : null, 
+        "TEU_K_2005" : null, 
+        "TEU_K_2004" : null, 
+        "ObjectId" : 45
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 46, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          32.28612, 31.26004
+        ]
+      }, 
+      "properties" : {
+        "PORT" : "Port Said", 
+        "COUNTRY" : "Egypt", 
+        "REGION" : "North Africa", 
+        "LOCATION" : "Eastern Mediterranean", 
+        "RANK_2019" : 46, 
+        "TEU_K_2019" : 3816, 
+        "TEU_K_2018" : 3105, 
+        "TEU_K_2017" : null, 
+        "TEU_K_2016" : 3036, 
+        "TEU_K_2015" : 3462, 
+        "TEU_K_2014" : 3036, 
+        "TEU_K_2013" : 4100, 
+        "TEU_K_2012" : 3631, 
+        "TEU_K_2011" : 4272, 
+        "TEU_K_2010" : 3646, 
+        "TEU_K_2009" : 3300, 
+        "TEU_K_2008" : 3202, 
+        "TEU_K_2007" : 2127, 
+        "TEU_K_2006" : 2127, 
+        "TEU_K_2005" : 1522, 
+        "TEU_K_2004" : null, 
+        "ObjectId" : 46
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 47, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          -122.32945, 47.60357
+        ]
+      }, 
+      "properties" : {
+        "PORT" : "Seattle–Tacoma", 
+        "COUNTRY" : "United States", 
+        "REGION" : "North America", 
+        "LOCATION" : "West Coast", 
+        "RANK_2019" : 47, 
+        "TEU_K_2019" : 3775, 
+        "TEU_K_2018" : 3798, 
+        "TEU_K_2017" : 3665, 
+        "TEU_K_2016" : 3616, 
+        "TEU_K_2015" : 3154, 
+        "TEU_K_2014" : 3456, 
+        "TEU_K_2013" : 3461, 
+        "TEU_K_2012" : 3510, 
+        "TEU_K_2011" : 3590, 
+        "TEU_K_2010" : null, 
+        "TEU_K_2009" : null, 
+        "TEU_K_2008" : null, 
+        "TEU_K_2007" : null, 
+        "TEU_K_2006" : null, 
+        "TEU_K_2005" : null, 
+        "TEU_K_2004" : null, 
+        "ObjectId" : 47
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 48, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          113.74472, 23.04889
+        ]
+      }, 
+      "properties" : {
+        "PORT" : "Dongguan", 
+        "COUNTRY" : "China", 
+        "REGION" : "East Asia", 
+        "LOCATION" : "Pearl River Delta", 
+        "RANK_2019" : 49, 
+        "TEU_K_2019" : 3680, 
+        "TEU_K_2018" : 3500, 
+        "TEU_K_2017" : 3910, 
+        "TEU_K_2016" : 3640, 
+        "TEU_K_2015" : 3363, 
+        "TEU_K_2014" : null, 
+        "TEU_K_2013" : null, 
+        "TEU_K_2012" : null, 
+        "TEU_K_2011" : null, 
+        "TEU_K_2010" : null, 
+        "TEU_K_2009" : null, 
+        "TEU_K_2008" : null, 
+        "TEU_K_2007" : null, 
+        "TEU_K_2006" : null, 
+        "TEU_K_2005" : null, 
+        "TEU_K_2004" : null, 
+        "ObjectId" : 48
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 49, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          1.351769, 51.963675
+        ]
+      }, 
+      "properties" : {
+        "PORT" : "Felixstowe", 
+        "COUNTRY" : "United Kingdom", 
+        "REGION" : "Europe", 
+        "LOCATION" : "North Sea", 
+        "RANK_2019" : 50, 
+        "TEU_K_2019" : 3584, 
+        "TEU_K_2018" : 3850, 
+        "TEU_K_2017" : 3850, 
+        "TEU_K_2016" : 4016, 
+        "TEU_K_2015" : 3980, 
+        "TEU_K_2014" : 3680, 
+        "TEU_K_2013" : 3740, 
+        "TEU_K_2012" : 3700, 
+        "TEU_K_2011" : 3519, 
+        "TEU_K_2010" : 3400, 
+        "TEU_K_2009" : 3100, 
+        "TEU_K_2008" : 3200, 
+        "TEU_K_2007" : 3300, 
+        "TEU_K_2006" : 3000, 
+        "TEU_K_2005" : 2700, 
+        "TEU_K_2004" : 2717, 
+        "ObjectId" : 49
+      }
+    }, 
+    {
+      "type" : "Feature", 
+      "id" : 50, 
+      "geometry" : 
+      {
+        "type" : "Point", 
+        "coordinates" : [
+          119.30611, 26.06139
+        ]
+      }, 
+      "properties" : {
+        "PORT" : "Fuzhou", 
+        "COUNTRY" : "China", 
+        "REGION" : "East Asia", 
+        "LOCATION" : "Taiwan Strait", 
+        "RANK_2019" : 51, 
+        "TEU_K_2019" : 3340, 
+        "TEU_K_2018" : 3010, 
+        "TEU_K_2017" : 2660, 
+        "TEU_K_2016" : 1977, 
+        "TEU_K_2015" : 1825, 
+        "TEU_K_2014" : 1451, 
+        "TEU_K_2013" : 1319, 
+        "TEU_K_2012" : null, 
+        "TEU_K_2011" : null, 
+        "TEU_K_2010" : null, 
+        "TEU_K_2009" : null, 
+        "TEU_K_2008" : null, 
+        "TEU_K_2007" : null, 
+        "TEU_K_2006" : null, 
+        "TEU_K_2005" : null, 
+        "TEU_K_2004" : null, 
+        "ObjectId" : 50
+      }
+    }
+  ]
+}
