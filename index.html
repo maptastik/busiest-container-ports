@@ -21,17 +21,46 @@
             <div id="meta">
                 <ul>
                     <li>
-                        <a href="#">Legend</a>
+                        <a href="#" id="legend-toggle">Legend</a>
                     </li>
                     <li>
-                        <a href="#">About</a>
+                        <a href="#" id="about-toggle">About</a>
                     </li>
                 </ul>
             </div>
         </div>
         <!-- APP -->
         <!-- MAP -->
-        <div id="map">MAP</div>
+        <div id="map">
+            <div id="legend-container" class="info-box">
+                <div class="info-box-title">Legend</div>
+                <div class="info-box-close "><button class="close">&times;</button></div>
+                <div id="legend-content" class="info-box-content">
+                    <h2>TEUs in <span id="legend-year"></span></h2>
+                    <div id="teu-legend-graphic">
+                        <img src="http://placekitten.com/100/150" alt="">
+                    </div>
+                    <div id="teu-legend-labels">
+                        <div>#### K</div>
+                        <div>### K</div>
+                        <div>## K</div>
+                    </div>
+                </div>
+            </div>
+            <div id="about-container" class="info-box">
+                <div class="info-box-title">About</div>
+                <div class="info-box-close "><button class="close">&times;</button></div>
+                <div class="info-box-content">
+                    <p>Container shipping is foundational to the contemporary global economy, a fact made clear when the cargo ship Ever Given blocked Suez Canal for nearly a week in March 2021. This map zooms out from that event to examine the global growth of the largest global cargo ports from 2004 to 2019.</p>
+                    <h2>Sources</h2>
+                    <ul>
+                        <li><a href="https://en.wikipedia.org/wiki/List_of_busiest_container_ports">"List of Busiest Container Ports,"</a>
+                            Wikipedia, Retrieved 6/14/2021.</li>
+                        <li>ESRI World Geocoder</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
         <!-- CONTROLS -->
         <div id="controls">
             <div id="year-control-container">

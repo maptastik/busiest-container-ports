@@ -1,4 +1,31 @@
-// GLOBALS
+// METAINFO INTERFACE
+const legendToggleEl = document.getElementById("legend-toggle")
+const legendEl = document.getElementById("legend-container")
+
+const aboutToggleEl = document.getElementById("about-toggle")
+const aboutEl = document.getElementById("about-container")
+const closeEls = document.getElementsByClassName("close")
+
+function deactivateClass(cssClass) {
+    let elements = document.getElementsByClassName(cssClass)
+    for (let i = 0; i<elements.length; i++) {
+        elements[i].classList.remove(cssClass)
+    }
+}
+
+legendToggleEl.addEventListener("click", () => {
+    deactivateClass("info-box-visible")
+    legendEl.classList.add("info-box-visible")
+})
+
+aboutToggleEl.addEventListener("click", () => {
+    deactivateClass("info-box-visible")
+    aboutEl.classList.add("info-box-visible")
+})
+
+for (closeEl of closeEls) {
+    closeEl.addEventListener("click", () => deactivateClass("info-box-visible"))
+}
 
 
 // MAP INITIALIZATION
@@ -12,6 +39,12 @@ function createMap() {
         subdomains: 'abcd',
         maxZoom: 19
     }).addTo(map);
+
+    
+    for (el of [legendEl, aboutEl]) {
+        L.DomEvent.disableClickPropagation(el)
+    }
+
 
     // Feature Data
     getData(map);
