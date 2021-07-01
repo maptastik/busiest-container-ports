@@ -71,7 +71,7 @@ function processData(data) {
 
 function createPropSymbols(data, map, attributes, region) {
     let attribute = attributes[0]
-    L.geoJson(data, {
+    let layer = L.geoJson(data, {
         pointToLayer: (feature, latlng) => pointToLayer(feature, latlng, attributes),
         filter: feature => {
             if(region == "") {
@@ -81,6 +81,8 @@ function createPropSymbols(data, map, attributes, region) {
             }
         }
     }).addTo(map);
+
+    return layer;
 }
 
 function pointToLayer(feature, latlng, attributes) {
@@ -145,7 +147,8 @@ function getData(map) {
         dataType: "json",
         success: function (response) {
             let attributes = processData(response)
-            createPropSymbols(response, map, attributes, region)
+            let teuLayer = createPropSymbols(response, map, attributes, region)
+            map.fitBounds(teuLayer.getBounds())
             
             // Year change event 
             $(".skip").click(function() {
@@ -172,7 +175,8 @@ function getData(map) {
                         map.removeLayer(layer)
                     }
                 })
-                createPropSymbols(response, map, attributes, region)
+                teuLayer = createPropSymbols(response, map, attributes, region)
+                map.fitBounds(teuLayer.getBounds())
             })
         }
     })
