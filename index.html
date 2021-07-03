@@ -57,6 +57,7 @@
                         <li><a href="https://en.wikipedia.org/wiki/List_of_busiest_container_ports">"List of Busiest Container Ports,"</a>
                             Wikipedia, Retrieved 6/14/2021.</li>
                         <li>ESRI World Geocoder</li>
+                        <li>Arrow icon: <a href="https://thenounproject.com/timur.minvaleev/collection/navigation-actions-4-px-stroke-48x48-px/?i=1075152" target="_blank">"Next"</a> by Тимур Минвалеев from the Noun Project</li>
                     </ul>
                 </div>
             </div>
@@ -66,14 +67,14 @@
             <div id="year-control-container">
                 <p>Year</p>
                 <div id="year-control">
-                    <button id="year-decrease" class="btn btn-light skip"><</button>
+                    <button id="year-decrease" class="btn btn-light skip"><span class="previous"></span></button>
                     <div id="year-display" class="year">2004</div>
-                    <button id="year-increase" class="btn btn-light skip">></button>
+                    <button id="year-increase" class="btn btn-light skip"><span class="next"></span></button>
                 </div>
             </div>
-            <div id="region-filter-container">
-                <label>Filter by Region</label><br>
-                <select name="region" id="region-select">
+            <div id="region-filter-container" class="form-group">
+                <label for="region-select">Filter by Region</label>
+                <select name="region" id="region-select" class="form-control">
                     <option value="">All Regions</option>
                     <option value="Central America">Central America</option>
                     <option value="East Asia">East Asia</option>
