@@ -65,14 +65,12 @@ function processData(data) {
     }
     
     attributes.sort((a, b) => a.split("_")[2] - b.split("_")[2])
-    console.log(attributes)
     return attributes
 }
 
-function createPropSymbols(data, map, attributes, region) {
-    let attribute = attributes[0]
+function createPropSymbols(data, map, attribute, region) {
     let layer = L.geoJson(data, {
-        pointToLayer: (feature, latlng) => pointToLayer(feature, latlng, attributes),
+        pointToLayer: (feature, latlng) => pointToLayer(feature, latlng, attribute),
         filter: feature => {
             if(region == "") {
                 return feature.properties[attribute] != null  
@@ -85,10 +83,8 @@ function createPropSymbols(data, map, attributes, region) {
     return layer;
 }
 
-function pointToLayer(feature, latlng, attributes) {
-    let attribute = attributes[0];
-    console.log(attribute)
-
+function pointToLayer(feature, latlng, attribute) {
+    
     let geojsonMarkerOptions = {
         radius: 8,
         fillColor: "#18FFFF",
@@ -128,39 +124,34 @@ function Popup(properties, attribute, layer, radius) {
     }
 }
 
-function updatePropSymbols(map, attribute) {
-    map.eachLayer(function (layer) {
-        if (layer.feature && layer.feature.properties[attribute]) {
-            let props = layer.feature.properties;
-
-            let radius = calcPropRadius(props[attribute])
-            layer.setRadius(radius)
-
-            let popup = new Popup(props, attribute, layer, radius)
-            popup.bindToLayer();
-        }
-    })
-}
-
 function getData(map) {
     $.ajax("./data/busiest_container_ports_2004_2019.geojson", {
         dataType: "json",
         success: function (response) {
             let attributes = processData(response)
-            let teuLayer = createPropSymbols(response, map, attributes, region)
+            let teuLayer = createPropSymbols(response, map, attributes[0], region)
             map.fitBounds(teuLayer.getBounds())
             
             // Year change event 
             $(".skip").click(function() {
+                map.eachLayer(layer => {
+                    if (layer.feature) {
+                        map.removeLayer(layer)
+                    }
+                })
+
                 if ($(this).attr("id") == "year-increase") {
                     index++;
                     index = index > 15 ? 0 : index;
-                    updatePropSymbols(map, attributes[index])
                 } else if ($(this).attr("id") == "year-decrease") {
                     index--;
                     index = index < 0 ? 15 : index;
-                    updatePropSymbols(map, attributes[index])
                 }
+
+                teuLayer = createPropSymbols(response, map, attributes[index], region)
+                map.fitBounds(teuLayer.getBounds(), {
+                    maxZoom: 8
+                })
 
                 year = attributes[index].split("_")[2]
                 
@@ -175,8 +166,10 @@ function getData(map) {
                         map.removeLayer(layer)
                     }
                 })
-                teuLayer = createPropSymbols(response, map, attributes, region)
-                map.fitBounds(teuLayer.getBounds())
+                teuLayer = createPropSymbols(response, map, attributes[index], region)
+                map.fitBounds(teuLayer.getBounds(), {
+                    maxZoom: 8
+                })
             })
         }
     })
