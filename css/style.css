@@ -7,7 +7,8 @@
     --secondary-bg-color: #e0e0e0;
     --tertiary-bg-color: #212121;
     --primary-font: "Overpass";
-    --primary-font-color: "121212";
+    --primary-font-color: #121212;
+    --primary-link-color: #F9A825;
 }
 
 /* STYLE */
@@ -17,6 +18,9 @@ main {
     height: 100vh;
     font-family: var(--primary-font), sans-serif;
     color: var(--primary-font-color);
+}
+main a {
+    color: var(--primary-link-color) !important;
 }
 
 #navbar {
@@ -41,12 +45,11 @@ main {
     padding: 0 2px;
 }
 
-#navbar>#meta>ul>li>a {
-    color: #F9A825;
-}
-
 #map {
     background-color: #060606;
+}
+.leaflet-control-attribution a {
+    color: #01426a !important;
 }
 
 .info-box {
@@ -94,6 +97,12 @@ main {
 .info-box-content h2 {
     font-size: 1rem;
 }
+.info-box-content img {
+    max-width: 100%;
+    margin: auto;
+    padding: 0 50px;
+
+}
 
 .info-box-visible {
     display: grid;
@@ -106,7 +115,7 @@ main {
 #legend-content {
     display: grid;
     grid-template-columns: 60% 40%;
-    grid-template-rows: 25px auto;
+    grid-template-rows: 25px 60px;
 }
 #legend-content>h2 {
     grid-column: 1 / 3;
@@ -115,7 +124,7 @@ main {
 #teu-legend-graphic {
     grid-column: 1 / 2;
     grid-row: 2 / 3;
-    place-self: center
+    /* place-self: center */
 }
 #teu-legend-labels {
     grid-column: 2 / 3;
@@ -123,6 +132,10 @@ main {
     display: grid;
     grid-template-rows: repeat(3, 1fr);
     text-align: left;
+}
+#attribute-legend {
+    width: 100%;
+    height: 100%
 }
 
 #controls {

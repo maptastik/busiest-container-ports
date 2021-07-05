@@ -84,7 +84,7 @@ function createPropSymbols(data, map, attribute, region) {
 }
 
 function pointToLayer(feature, latlng, attribute) {
-    
+
     let geojsonMarkerOptions = {
         radius: 8,
         fillColor: "#18FFFF",
@@ -116,7 +116,7 @@ function Popup(properties, attribute, layer, radius) {
     this.layer = layer;
     this.year = attribute.split("_")[2];
     this.teu = this.properties[attribute]
-    this.content = "<p><b>Port City:</b> " + this.properties.PORT + "</p>" + "<p><b>TEU in " + this.year + ":</b> " + this.teu + " thousand</p>";
+    this.content = "<p><b>Port City:</b> " + this.properties.PORT + "</p>" + "<p><b>Container Throughput in " + this.year + ":</b> " + this.teu.toLocaleString() + "K Containers</p>";
     this.bindToLayer = function() {
         this.layer.bindPopup(this.content, {
             offset: new L.Point(0, -radius)
@@ -124,11 +124,62 @@ function Popup(properties, attribute, layer, radius) {
     }
 }
 
+function createLegendGraphics(container, legendVals) {
+    let svg = "<svg id='attribute-legend'>";
+    let circles = ["min", "mean", "max"];
+    for (let i = 0; i < circles.length; i++) {
+
+        let radius = calcPropRadius(legendVals[circles[i]]).toString()
+        let cy = (59 - radius).toString();
+        console.log({radius, cy})
+        svg += '<circle class="legend-circle" id=' + circles[i] + ' fill-opacity="0" stroke="#FFEB3B" stroke-width="1" cx="60" cy=' + cy + ' r=' + radius + ' /></circle>'
+    }
+    svg += "</svg>"
+    $(container).append(svg);
+}
+function createLegendGraphicsLabels(legendVals) {
+    let circles = ["max", "mean", "min"];
+    for (let i = 0; i < circles.length; i++) {
+        let amount = Math.round(legendVals[circles[i]]).toLocaleString();
+        console.log(amount)
+        $("#teu-legend-label-" + circles[i]).text(amount + " K")
+    }
+}
+
+function getCircleValues(data, attributes) {
+    let min = Infinity;
+    let max = -Infinity;
+
+    // Iterate through each attribute value for each feature to check if
+    // the attribute value is the min or max value in the dataset
+    let features = data.features
+    features.forEach(feature => {
+        attributes.forEach(attribute => {
+            let value = feature.properties[attribute] 
+            if (value < min & value != null) {
+                min = feature.properties[attribute] 
+            }
+
+            if (value > max) {
+                max = feature.properties[attribute]
+            }
+        })
+    })
+
+    // Calculate the mean of the min and max
+    let mean = (max + min) / 2;
+
+    return {max, min, mean}
+}
+
 function getData(map) {
     $.ajax("./data/busiest_container_ports_2004_2019.geojson", {
         dataType: "json",
         success: function (response) {
-            let attributes = processData(response)
+            const attributes = processData(response)
+            const legendCircleValues = getCircleValues(response, attributes)
+            createLegendGraphics("#teu-legend-graphic", legendCircleValues)
+            createLegendGraphicsLabels(legendCircleValues)
             let teuLayer = createPropSymbols(response, map, attributes[0], region)
             map.fitBounds(teuLayer.getBounds())
             
@@ -156,6 +207,7 @@ function getData(map) {
                 year = attributes[index].split("_")[2]
                 
                 $(".year").text(year);
+
             })
             
             // Region change event
